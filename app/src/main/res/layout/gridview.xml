@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/Gl"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/im1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="2"
+            android:scaleType="fitXY" />
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:id="@+id/im2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="2"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/Gl"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="9dp"
+        android:gravity="center"
+        android:text="玉镯      ￥99"
+        android:textSize="20dp"
+        android:textColor="#FF151414"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="21dp"
+        android:gravity="center"
+        android:text="女装     ￥499"
+        android:textSize="20dp"
+        android:textColor="#FF151414"/>
+
+
+</RelativeLayout>

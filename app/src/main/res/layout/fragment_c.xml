@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/fragmentcRelative1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+        <ImageView
+            android:id="@+id/cfi"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/nanzi"
+            android:scaleType="fitCenter" />
+        <TextView
+            android:id="@+id/tt1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@id/cfi"
+            android:text="阿里哈哈哈"
+            android:textColor="@color/colorblack"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tt2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/tt1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="9dp"
+            android:layout_toRightOf="@id/cfi"
+            android:text="申请退款"
+            android:textColor="@color/colorgray"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tt3"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/tt1"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="-6dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/cfi"
+            android:text="2019.05.31    20:26"
+            android:textColor="@color/colorgray" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragmentcRelative2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/fragmentcRelative1">
+
+        <ImageView
+            android:id="@+id/cfi2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/lanyuelaing3"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/tt12"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@id/cfi2"
+            android:text="飞飞哈哈哈"
+            android:textColor="@color/colorblack"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tt22"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/tt12"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="19dp"
+            android:layout_toRightOf="@id/cfi2"
+            android:text="取消订单"
+            android:textColor="@color/colorgray"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tt33"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/tt12"
+            android:layout_marginLeft="156dp"
+            android:layout_marginTop="-6dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/cfi2"
+            android:text="2019.06.06    09:17"
+            android:textColor="@color/colorgray" />
+    </RelativeLayout>
+
+</RelativeLayout>

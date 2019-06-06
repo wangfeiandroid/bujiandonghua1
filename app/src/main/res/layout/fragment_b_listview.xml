@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+    <ImageView
+        android:id="@+id/bfragmentimagine"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:background="#000"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft = "10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/bfragmenttextview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Helloworld"
+            android:textSize="18sp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/bfragmenttextview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2019-5-13"
+            android:textColor="#aaff00"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/bfragmenttextview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colororange"
+            android:textSize="15sp"
+            android:text="这里是内容"/>
+    </LinearLayout>
+
+</LinearLayout>

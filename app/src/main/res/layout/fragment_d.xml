@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/dfragmentimagine"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:layout_margin="5dp"
+        android:background="@drawable/qingqing"/>
+
+    <TextView
+        android:id="@+id/dfragmenttextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:layout_toRightOf="@id/dfragmentimagine"
+        android:text="大脸猫"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/dfragmenttextview"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="63dp"
+        android:text="我叫姚庆，是个大脸猫" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/dfragmentimagine"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/dfragmentbutton1"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:text="个人资料"
+            android:drawableLeft="@drawable/f4_1"
+            android:background="@drawable/miaobian"
+            android:gravity="center_vertical"
+            android:drawableRight="@drawable/huayuanshixin"/>
+
+        <Button
+            android:id="@+id/dfragmentbutton2"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/miaobian"
+            android:drawableLeft="@drawable/f4_4"
+            android:gravity="center_vertical"
+            android:text="我的小店"
+            android:drawableRight="@drawable/huayuanshixin"/>
+
+        <Button
+            android:id="@+id/dfragmentbutton3"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/miaobian"
+            android:drawableLeft="@drawable/f4_3"
+            android:gravity="center_vertical"
+            android:text="我的订单"
+            android:drawableRight="@drawable/huayuanshixin"/>
+
+        <Button
+            android:id="@+id/dfragmentbutton4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/miaobian"
+            android:drawableLeft="@drawable/f4_2"
+            android:gravity="center_vertical"
+            android:text="我的收藏"
+            android:drawableRight="@drawable/huayuanshixin"/>
+
+        <Button
+            android:id="@+id/dfragmentbutton5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/miaobian"
+            android:drawableLeft="@drawable/f4"
+            android:gravity="center_vertical"
+            android:text="设置"
+            android:drawableRight="@drawable/huayuanshixin"/>
+    </LinearLayout>
+</RelativeLayout>

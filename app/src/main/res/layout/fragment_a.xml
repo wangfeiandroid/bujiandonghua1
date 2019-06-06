@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+            <com.youth.banner.Banner
+                android:id="@+id/bannerone"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+            </com.youth.banner.Banner>
+            <LinearLayout
+                android:id="@+id/L1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bannerone">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/virtualbg_orange"
+                    android:drawableLeft="@drawable/huayuan"
+                    android:text="随便逛逛"
+                    android:textSize="20dp" />
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/virtualbg_orange"
+                    android:drawableLeft="@drawable/huayuan"
+                    android:text="有货出手"
+                    android:textSize="20dp" />
+            </LinearLayout>
+            <com.example.administrator.bujiandonghua.fragment.MyGridView
+                android:id="@+id/GV1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/L1"
+                android:numColumns="1"
+                android:verticalSpacing="10dp" />
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>
